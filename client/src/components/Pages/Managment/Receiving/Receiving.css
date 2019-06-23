@@ -1,0 +1,89 @@
+.marchandises-box h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.receiving-submut{
+    float: right;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+}
+.receiving-submut:hover{
+  opacity: 1 !important;
+}
+.product-image{
+    width: 80%;
+    height: 250px;
+    margin: 5px auto !important;
+}
+.previews{
+    text-align: left;
+}
+
+#male,#female{
+  
+  float: left !important;
+  width: 50px !important;
+  margin-right: 60px;
+  border: 3 solid #6351ce !important;
+}
+
+
+#kids,#youth,#old{
+  float: left !important;
+  width: 50px !important;
+  margin-right: 30px;
+  border: 3 solid #6351ce !important;
+}
+
+.gender{
+    position: relative; left: 50px !important;
+    border-radius: 10px;
+}
+
+
+ul{
+    display:inline-block;
+    margin:0 auto;}
+li{
+    display:inline-block;
+}
+
+
+input,
+button {
+  /* border: 0 none;
+  outline: 0 none; */
+  border: 1px solid #ccc;
+  height: 30px;
+}
+
+button {
+  color: #fff;
+  background:#6351ce ;
+
+}
+
+
+button:hover {
+  background-color: #555;
+}
+
+
+@media (max-width: 320px){
+ 
+  #female{
+    
+    margin-left: -15px;
+    
+  }
+
+  .em{
+    margin-right: 50px;
+  }
+  .gender{
+    margin-left: -5px;
+  }
+  
+}
+

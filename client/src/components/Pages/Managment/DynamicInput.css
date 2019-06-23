@@ -1,0 +1,19 @@
+/* input,
+button {
+  border: 0 none;
+  outline: 0 none;
+  border: 1px solid #ccc;
+  height: 30px;
+}
+
+button {
+  color: #fff;
+  background:#6351ce ;
+
+}
+
+
+button:hover,
+button:focus {
+  background-color: #555;
+} */

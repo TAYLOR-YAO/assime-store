@@ -1,0 +1,37 @@
+{
+  "name": "assime-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"nodemon server.js\" \" cd ./client && yarn start\"",
+    "postinstall": "cd client && yarn install && yarn run build",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TAYLOR-YAO/assime-store.git"
+  },
+  "author": "tayloryao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TAYLOR-YAO/assime-store/issues"
+  },
+  "homepage": "https://github.com/TAYLOR-YAO/assime-store#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.0",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "stripe": "^7.2.0",
+    "validator": "^11.0.0"
+  }
+}
