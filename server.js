@@ -56,7 +56,6 @@ app.get("*", (req, res)=>{
 
 
 // PORT Listener
-server.listen(process.env.PORT || PORT)
-// app.listen(PORT,()=>{
-//     console.log(`Listening on port: ${PORT}`);
-// });
+app.listen(PORT,()=>{
+    console.log(`Listening on port: ${PORT}`);
+});
