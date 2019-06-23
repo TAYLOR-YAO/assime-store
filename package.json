@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "12.3.1"
-  },
   "scripts": {
-    "postinstall": "cd client && yarn install && yarn run build",
+    "dev": "concurrently \"nodemon server.js\" \" cd ./client && yarn start\"",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +21,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
     "express": "^4.17.1",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
@@ -35,5 +33,4 @@
     "stripe": "^7.2.0",
     "validator": "^11.0.0"
   }
-
 }
